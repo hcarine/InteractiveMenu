@@ -1,4 +1,4 @@
-{"diches":[
+export const dishes = [
     {
     "name":"Bacon & eggs",
     "ingredient":[0,1]
@@ -11,8 +11,9 @@
     "name":"English breakfast",
     "ingredient":[5,6,7,3]
 }
-],
-"ingredients":[
+];
+
+export const ingredients = [
    {
     "id": 0,
     "name":"Bacon",
@@ -61,5 +62,4 @@
     "type":["Meat"],
     "variety":"Pork"
 }
-]
-}
+];
